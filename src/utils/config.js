@@ -1,3 +1,4 @@
+require('dotenv').config()
 const config = {
   app: {
     host: process.env.HOST,
